@@ -159,9 +159,9 @@ Discord:
     IncludeQuote: true
     CreateEmbed: true
     twitter_ids: 
-     - '1346130518354477057'
+    - '1346130518354477057'
     webhook_urls: 
-    -'https://discord.com/api/webhooks/796657428057423872/Tefo7ms2BQNBODIXiJVzqAbp4eGUyAHux8YADkcUZAM71G5xPOnostBJ7PWaavt8XlJS'
+    - 'https://discord.com/api/webhooks/796657428057423872/Tefo7ms2BQNBODIXiJVzqAbp4eGUyAHux8YADkcUZAM71G5xPOnostBJ7PWaavt8XlJS'
 
   - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_8!b}
     IncludeRetweet: ${INCLUDE_RETWEET_8!b}
