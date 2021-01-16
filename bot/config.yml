@@ -46,7 +46,6 @@ Discord:
     - '1346130518354477057'
     webhook_urls: 
     - 'https://discord.com/api/webhooks/796657428057423872/Tefo7ms2BQNBODIXiJVzqAbp4eGUyAHux8YADkcUZAM71G5xPOnostBJ7PWaavt8XlJS'
-    
   - IncludeRetweet: true
     custom_message: 'Keyword matched: entry'
     keyword_sets: 
@@ -66,7 +65,6 @@ Discord:
     - '1146930893883346944' #diaoAIO
     webhook_urls: 
     - 'https://discord.com/api/webhooks/796683578234634240/wJqD_2O2aKCeesf8Zb6eqozSzNRjUoWVaE0L5Kaze_0kCUn8bm4Y0kec7GfWhQIOw8HC'
-
   - IncludeRetweet: true
     custom_message: 'Keyword matched: giveaways'
     keyword_sets: 
@@ -85,7 +83,6 @@ Discord:
     - '1146930893883346944' #diaoAIO
     webhook_urls: 
     - 'https://discord.com/api/webhooks/796683753295446026/HXDiT-m8vBu6A0PBtW0OlTqkIw24J1bjNqoAlUoCMhbIuzGULZVh1cov35a538LoQfY5'
-
   - IncludeRetweet: true
     custom_message: 'Keyword matched: key'
     keyword_sets: 
@@ -105,7 +102,6 @@ Discord:
     - '1146930893883346944' #diaoAIO
     webhook_urls: 
     - 'https://discord.com/api/webhooks/796688100327686156/NRqZ1Dn7ddY0Kqte1Rmd5AeJeUb0ZTa6Ch-1lFXMQSK9JvsBfvjZpUoKnww56fbqctkU'
-
   - IncludeRetweet: true
     custom_message: 'Keyword matched: restock'
     keyword_sets: 
@@ -124,7 +120,6 @@ Discord:
     - '1146930893883346944' #diaoAIO
     webhook_urls: 
     - 'https://discord.com/api/webhooks/796688172746276864/s8CA4udyteJMVg_qPGaP5nEtAyABNFJmz0L4mdpU2tFuzoL-M0ojfdV7m0lR_nKID022'
-    
   - IncludeRetweet: true
     custom_message: 'Keyword matched: success'
     keyword_sets: 
@@ -143,7 +138,6 @@ Discord:
     - '1146930893883346944' #diaoAIO
     webhook_urls: 
     - 'https://discord.com/api/webhooks/796688357836193802/aCMoe4l0JhtvAeKF2m-Z-ePRIBAj4BV1TuAAnxBGSJUFxehYM5XkjnoqBaBO4TYq0ldy'
-
   - IncludeRetweet: true
     custom_message: 'Keyword matched: link'
     keyword_sets: 
@@ -162,51 +156,3 @@ Discord:
     - '1146930893883346944' #diaoAIO
     webhook_urls: 
     - 'https://discord.com/api/webhooks/796688506109820948/s3eB_Sf0lMyfb-qtLqXTI1ic6yxIqfxSdR_1dldeFXjs5J80FbL3hnfwQxoUyQ7L_HHc'
-
-  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_8!b}
-    IncludeRetweet: ${INCLUDE_RETWEET_8!b}
-    IncludeUserReply: ${INCLUDE_USER_REPLY_8!b}
-    IncludeAttachment: ${INCLUDE_ATTACHMENT_8!b}
-    IncludeQuote: ${INCLUDE_QUOTE_8!b}
-    CreateEmbed: ${CREATE_EMBED_8!b}
-    custom_message: ${CUSTOM_MESSAGE_8}
-    keyword_sets: ${KEYWORDS_8!ll}
-    blackword_sets: ${BLACKWORDS_8!ll}
-    twitter_ids: ${TWITTER_ID_8!l}
-    twitter_handles: ${TWITTER_HANDLE_8!l}
-    twitter_lists: ${TWITTER_LIST_8!l}
-    track: ${TRACK_8!l}
-    location: ${LOCATION_8!fl}
-    webhook_urls: ${WEBHOOK_URL_8!wh}
-
-  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_9!b}
-    IncludeRetweet: ${INCLUDE_RETWEET_9!b}
-    IncludeUserReply: ${INCLUDE_USER_REPLY_9!b}
-    IncludeAttachment: ${INCLUDE_ATTACHMENT_9!b}
-    IncludeQuote: ${INCLUDE_QUOTE_9!b}
-    CreateEmbed: ${CREATE_EMBED_9!b}
-    custom_message: ${CUSTOM_MESSAGE_9}
-    keyword_sets: ${KEYWORDS_9!ll}
-    blackword_sets: ${BLACKWORDS_9!ll}
-    twitter_ids: ${TWITTER_ID_9!l}
-    twitter_handles: ${TWITTER_HANDLE_9!l}
-    twitter_lists: ${TWITTER_LIST_9!l}
-    track: ${TRACK_9!l}
-    location: ${LOCATION_9!fl}
-    webhook_urls: ${WEBHOOK_URL_9!wh}
-
-  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_10!b}
-    IncludeRetweet: ${INCLUDE_RETWEET_10!b}
-    IncludeUserReply: ${INCLUDE_USER_REPLY_10!b}
-    IncludeAttachment: ${INCLUDE_ATTACHMENT_10!b}
-    IncludeQuote: ${INCLUDE_QUOTE_10!b}
-    CreateEmbed: ${CREATE_EMBED_10!b}
-    custom_message: ${CUSTOM_MESSAGE_10}
-    keyword_sets: ${KEYWORDS_10!ll}
-    blackword_sets: ${BLACKWORDS_10!ll}
-    twitter_ids: ${TWITTER_ID_10!l}
-    twitter_handles: ${TWITTER_HANDLE_10!l}
-    twitter_lists: ${TWITTER_LIST_10!l}
-    track: ${TRACK_10!l}
-    location: ${LOCATION_10!fl}
-    webhook_urls: ${WEBHOOK_URL_10!wh}
