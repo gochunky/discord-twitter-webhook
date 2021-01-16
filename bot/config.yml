@@ -46,3 +46,23 @@ Discord:
     - '1346130518354477057'
     webhook_urls: 
     - 'https://discord.com/api/webhooks/796657428057423872/Tefo7ms2BQNBODIXiJVzqAbp4eGUyAHux8YADkcUZAM71G5xPOnostBJ7PWaavt8XlJS'
+  - IncludeReplyToUser: true
+    IncludeRetweet: true
+    IncludeUserReply: true
+    IncludeAttachment: true
+    IncludeQuote: true
+    CreateEmbed: true
+    twitter_ids: 
+    - '1189833545478311936' #xdaiotools
+    - '1277001161321537536' #whatisfnf
+    - '1313855922792398848' #cookvault
+    - '1264491925526253568' #mixeraio
+    - '1079785380478504960' #grailgateway
+    - '1105496046321442817' #The_Shit_Bot
+    - '1327461517478936577' #SGNIKECOP1
+    - '1331282912994476033' #gotemgroup
+    - '1298127398479699975' #KitchenFNF
+    - '1298127398479699975' #coppin_fnf
+    - '1146930893883346944' #diaoAIO
+    webhook_urls: 
+    - 'https://discord.com/api/webhooks/799901645357187092/iw66XD8RqLMxCoEkqQBcXvpBLSU4VYGPEkhnPkLXZiYlp2FxeRCek_UVPTNLwGG85iiy'
