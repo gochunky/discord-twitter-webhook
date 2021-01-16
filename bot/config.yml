@@ -72,6 +72,9 @@ Discord:
     IncludeAttachment: true
     IncludeQuote: true
     CreateEmbed: true
+    keyword_sets: 
+    - - 'entry'
+    - - 'restock'
     twitter_ids: 
     - '1348974086320373763'
     webhook_urls: 
