@@ -1,0 +1,208 @@
+######################################
+#### manual configuration example: ###
+#Twitter:
+#  access_token: XXX-XXX
+#  access_token_secret: XXX
+#  consumer_key: XXX
+#  consumer_secret: XXX
+#
+#Discord:
+#  - IncludeReplyToUser: false
+#    IncludeRetweet: false
+#    IncludeUserReply: true
+#    custom_message: 'A new tweet!'
+#    keyword_sets:
+#    - - 'League'    # tweet will be posted if tweet contains all 3 words {League of Legends}, no particular order.
+#      - 'of'
+#      - 'Legends'
+#    - - 'Dota 2'    # tweet will be posted if tweet contains 'Dota 2' in this specific order
+#    - - 'MOBA'      # tweet will be posted if it contains 'MOBA'
+#    twitter_ids:
+#    - '123'         # define as many as you want with a dash {-} at the beginning
+#    - '456'
+#    twitter_handles:
+#    - 'discordapp'
+#    twitter_lists:
+#    - 'https://twitter.com/rokxx/lists/dota-2'
+#    webhook_urls:
+#    - 'https://discordapp.com/api/webhooks/123456/XXXX-XXXX'
+######################################
+
+# configuration through environment variables
+Twitter:
+  access_token: 1346130518354477057-2yK9pKIn9DboQ35Gr21leySrLX95lh
+  access_token_secret: 27F7QnHOoV7T2yTdoSfJGJsP5r5tUQvs3qB6bJMpM8iKp
+  consumer_key: pXQQnKcP5Y2CsRcJ9CREy2oji
+  consumer_secret: cefGNYcXK5Y8zIrJ4G1zqxgdw2jCfBezGO7rxIc6hynS4kbxbj
+
+Discord:
+  - IncludeRetweet: true
+    custom_message: 'Keyword matched: entry'
+    keyword_sets: 
+    - - 'entry'
+    - - 'entries'
+    twitter_ids: 
+    - '1189833545478311936' #xdaiotools
+    - '1277001161321537536' #whatisfnf
+    - '1313855922792398848' #cookvault
+    - '1264491925526253568' #mixeraio
+    - '1079785380478504960' #grailgateway
+    - '1105496046321442817' #The_Shit_Bot
+    - '1327461517478936577' #SGNIKECOP1
+    - '1331282912994476033' #gotemgroup
+    - '1298127398479699975' #KitchenFNF
+    - '1298127398479699975' #coppin_fnf
+    - '1146930893883346944' #diaoAIO
+    webhook_urls: 
+    - 'https://discord.com/api/webhooks/796683578234634240/wJqD_2O2aKCeesf8Zb6eqozSzNRjUoWVaE0L5Kaze_0kCUn8bm4Y0kec7GfWhQIOw8HC'
+
+  - IncludeRetweet: true
+    custom_message: 'Keyword matched: giveaways'
+    keyword_sets: 
+    - - 'giveaways'
+    twitter_ids: 
+    - '1189833545478311936' #xdaiotools
+    - '1277001161321537536' #whatisfnf
+    - '1313855922792398848' #cookvault
+    - '1264491925526253568' #mixeraio
+    - '1079785380478504960' #grailgateway
+    - '1105496046321442817' #The_Shit_Bot
+    - '1327461517478936577' #SGNIKECOP1
+    - '1331282912994476033' #gotemgroup
+    - '1298127398479699975' #KitchenFNF
+    - '1298127398479699975' #coppin_fnf
+    - '1146930893883346944' #diaoAIO
+    webhook_urls: 
+    - 'https://discord.com/api/webhooks/796683753295446026/HXDiT-m8vBu6A0PBtW0OlTqkIw24J1bjNqoAlUoCMhbIuzGULZVh1cov35a538LoQfY5'
+
+  - IncludeRetweet: true
+    custom_message: 'Keyword matched: key'
+    keyword_sets: 
+    - - 'key'
+    - - 'license key'
+    twitter_ids: 
+    - '1189833545478311936' #xdaiotools
+    - '1277001161321537536' #whatisfnf
+    - '1313855922792398848' #cookvault
+    - '1264491925526253568' #mixeraio
+    - '1079785380478504960' #grailgateway
+    - '1105496046321442817' #The_Shit_Bot
+    - '1327461517478936577' #SGNIKECOP1
+    - '1331282912994476033' #gotemgroup
+    - '1298127398479699975' #KitchenFNF
+    - '1298127398479699975' #coppin_fnf
+    - '1146930893883346944' #diaoAIO
+    webhook_urls: 
+    - 'https://discord.com/api/webhooks/796688100327686156/NRqZ1Dn7ddY0Kqte1Rmd5AeJeUb0ZTa6Ch-1lFXMQSK9JvsBfvjZpUoKnww56fbqctkU'
+
+  - IncludeRetweet: true
+    custom_message: 'Keyword matched: restock'
+    keyword_sets: 
+    - - 'restock'
+    twitter_ids: 
+    - '1189833545478311936' #xdaiotools
+    - '1277001161321537536' #whatisfnf
+    - '1313855922792398848' #cookvault
+    - '1264491925526253568' #mixeraio
+    - '1079785380478504960' #grailgateway
+    - '1105496046321442817' #The_Shit_Bot
+    - '1327461517478936577' #SGNIKECOP1
+    - '1331282912994476033' #gotemgroup
+    - '1298127398479699975' #KitchenFNF
+    - '1298127398479699975' #coppin_fnf
+    - '1146930893883346944' #diaoAIO
+    webhook_urls: 
+    - 'https://discord.com/api/webhooks/796688172746276864/s8CA4udyteJMVg_qPGaP5nEtAyABNFJmz0L4mdpU2tFuzoL-M0ojfdV7m0lR_nKID022'
+    
+  - IncludeRetweet: true
+    custom_message: 'Keyword matched: success'
+    keyword_sets: 
+    - - 'success'
+    twitter_ids: 
+    - '1189833545478311936' #xdaiotools
+    - '1277001161321537536' #whatisfnf
+    - '1313855922792398848' #cookvault
+    - '1264491925526253568' #mixeraio
+    - '1079785380478504960' #grailgateway
+    - '1105496046321442817' #The_Shit_Bot
+    - '1327461517478936577' #SGNIKECOP1
+    - '1331282912994476033' #gotemgroup
+    - '1298127398479699975' #KitchenFNF
+    - '1298127398479699975' #coppin_fnf
+    - '1146930893883346944' #diaoAIO
+    webhook_urls: 
+    - 'https://discord.com/api/webhooks/796688357836193802/aCMoe4l0JhtvAeKF2m-Z-ePRIBAj4BV1TuAAnxBGSJUFxehYM5XkjnoqBaBO4TYq0ldy'
+
+  - IncludeRetweet: true
+    custom_message: 'Keyword matched: link'
+    keyword_sets: 
+    - - 'https://'
+    twitter_ids: 
+    - '1189833545478311936' #xdaiotools
+    - '1277001161321537536' #whatisfnf
+    - '1313855922792398848' #cookvault
+    - '1264491925526253568' #mixeraio
+    - '1079785380478504960' #grailgateway
+    - '1105496046321442817' #The_Shit_Bot
+    - '1327461517478936577' #SGNIKECOP1
+    - '1331282912994476033' #gotemgroup
+    - '1298127398479699975' #KitchenFNF
+    - '1298127398479699975' #coppin_fnf
+    - '1146930893883346944' #diaoAIO
+    webhook_urls: 
+    - 'https://discord.com/api/webhooks/796688506109820948/s3eB_Sf0lMyfb-qtLqXTI1ic6yxIqfxSdR_1dldeFXjs5J80FbL3hnfwQxoUyQ7L_HHc'
+
+  - IncludeRetweet: true
+    IncludeUserReply: true
+    custom_message: ${CUSTOM_MESSAGE_7}
+    keyword_sets: ${KEYWORDS_7!ll}
+    twitter_ids: ${TWITTER_ID_8!l}
+    webhook_urls: ${WEBHOOK_URL_7!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_8!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_8!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_8!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_8!b}
+    IncludeQuote: ${INCLUDE_QUOTE_8!b}
+    CreateEmbed: ${CREATE_EMBED_8!b}
+    custom_message: ${CUSTOM_MESSAGE_8}
+    keyword_sets: ${KEYWORDS_8!ll}
+    blackword_sets: ${BLACKWORDS_8!ll}
+    twitter_ids: ${TWITTER_ID_8!l}
+    twitter_handles: ${TWITTER_HANDLE_8!l}
+    twitter_lists: ${TWITTER_LIST_8!l}
+    track: ${TRACK_8!l}
+    location: ${LOCATION_8!fl}
+    webhook_urls: ${WEBHOOK_URL_8!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_9!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_9!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_9!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_9!b}
+    IncludeQuote: ${INCLUDE_QUOTE_9!b}
+    CreateEmbed: ${CREATE_EMBED_9!b}
+    custom_message: ${CUSTOM_MESSAGE_9}
+    keyword_sets: ${KEYWORDS_9!ll}
+    blackword_sets: ${BLACKWORDS_9!ll}
+    twitter_ids: ${TWITTER_ID_9!l}
+    twitter_handles: ${TWITTER_HANDLE_9!l}
+    twitter_lists: ${TWITTER_LIST_9!l}
+    track: ${TRACK_9!l}
+    location: ${LOCATION_9!fl}
+    webhook_urls: ${WEBHOOK_URL_9!wh}
+
+  - IncludeReplyToUser: ${INCLUDE_REPLY_TO_USER_10!b}
+    IncludeRetweet: ${INCLUDE_RETWEET_10!b}
+    IncludeUserReply: ${INCLUDE_USER_REPLY_10!b}
+    IncludeAttachment: ${INCLUDE_ATTACHMENT_10!b}
+    IncludeQuote: ${INCLUDE_QUOTE_10!b}
+    CreateEmbed: ${CREATE_EMBED_10!b}
+    custom_message: ${CUSTOM_MESSAGE_10}
+    keyword_sets: ${KEYWORDS_10!ll}
+    blackword_sets: ${BLACKWORDS_10!ll}
+    twitter_ids: ${TWITTER_ID_10!l}
+    twitter_handles: ${TWITTER_HANDLE_10!l}
+    twitter_lists: ${TWITTER_LIST_10!l}
+    track: ${TRACK_10!l}
+    location: ${LOCATION_10!fl}
+    webhook_urls: ${WEBHOOK_URL_10!wh}
