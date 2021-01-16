@@ -1,33 +1,3 @@
-######################################
-#### manual configuration example: ###
-#Twitter:
-#  access_token: XXX-XXX
-#  access_token_secret: XXX
-#  consumer_key: XXX
-#  consumer_secret: XXX
-#
-#Discord:
-#  - IncludeReplyToUser: false
-#    IncludeRetweet: false
-#    IncludeUserReply: true
-#    custom_message: 'A new tweet!'
-#    keyword_sets:
-#    - - 'League'    # tweet will be posted if tweet contains all 3 words {League of Legends}, no particular order.
-#      - 'of'
-#      - 'Legends'
-#    - - 'Dota 2'    # tweet will be posted if tweet contains 'Dota 2' in this specific order
-#    - - 'MOBA'      # tweet will be posted if it contains 'MOBA'
-#    twitter_ids:
-#    - '123'         # define as many as you want with a dash {-} at the beginning
-#    - '456'
-#    twitter_handles:
-#    - 'discordapp'
-#    twitter_lists:
-#    - 'https://twitter.com/rokxx/lists/dota-2'
-#    webhook_urls:
-#    - 'https://discordapp.com/api/webhooks/123456/XXXX-XXXX'
-######################################
-
 # configuration through environment variables
 Twitter:
   access_token: 1346130518354477057-ADALusR0Xqq1kvWwxgW3zJysjw4eJJ
@@ -42,30 +12,443 @@ Discord:
     IncludeAttachment: true
     IncludeQuote: true
     CreateEmbed: true
+    keyword_sets: 
+    - - 'entry'
+    - - 'entries'
     twitter_ids: 
-    - '1346130518354477057'
+    - '2468032011' #@dragonaio 
+    - '1283444968426745857' #@phoenixai0 
+    - '1105496046321442817' #@the_shit_bot 
+    - '1264491925526253568' #@mixeraio 
+    - '1258037709660184577' #@theganeshbot 
+    - '929817052709134336'#@whatbotisthis  
+    - '948158419957100544' #@kickmoji_io  
+    - '1316427972157505536' #@botsgrigora 
+    - '1044054193365934081' #@kodaiaio  
+    - '1133623549791354880' #@mekrobotics  
+    - '718857559403270144' #@cybersole  
+    - '997644265156116480' #@balkobot 
+    - '1053046389704409089' #@prismaio 
+    - '1006618676689240064' #@notify  
+    - '1020862344912654336' #@valoraio  
+    - '1117790424960249859' #@burstaio 
+    - '940121522269691904' #@ghostaio  
+    - '730120059067219968' #@essenceaio 
+    - '1214099714481639424' #@kylinbot  
+    - '1190094485687947264' #@osirisrafflebot  
+    - '1117790424960249859' #@burstaio 
+    - '2858001267' #@easycopbots 
+    - '1167027072214196224' #@nsbsneakerbot  
+    - '4887899164' #@anb_aio  
+    - '1001153235179180032' #@soleaio 
+    - '1293689856963616773' #@kageaio 
+    - '1020862344912654336' #@valoraio 
+    - '1246594844677603330' #@thebotbible  
+    - '1117790424960249859' #@burstaio  
+    - '1053823183055413248' #@copbox 
+    - '1103347873251553285' #@mangopreme 
+    - '1277001161321537536' @whatisfnf 
+    - '1313855922792398848' @cookvault 
+    - '1257849985179291649' @mamiskitchenio 
+    - '1189833545478311936' @xdaiotools 
+    - '1146930893883346944' @diaoaio 
+    - '1327461517478936577' @sgnikecop1 
+    - '1344958327684382722' @tscg_my 
+    - '1206344258569023494' @ramenfnf 
+    - '1347591292893581312' @winwinfnf 
+    - '1288795364250669068' @washedfnf_my 
+    - '1334477731136847874' @midnightfnf 
+    - '1184594634535780352' @cooksupply 
+    - '1164125706722222080' @grailgatewayna 
+    - '1340337980628725760' @lightningatc__ 
+    - '1271975122111311874' @coppin_fnf 
+    - '1136146754791968768' @cookbeastio 
+    - '111184092' @cookbit 
+    - '1252953162417205250' @sgchefs 
+    - '1275668791331115009' @bearfnf 
+    - '1331282912994476033' @gotemgroup 
     webhook_urls: 
-    - 'https://discord.com/api/webhooks/796657428057423872/Tefo7ms2BQNBODIXiJVzqAbp4eGUyAHux8YADkcUZAM71G5xPOnostBJ7PWaavt8XlJS'
+    - 'https://discord.com/api/webhooks/796683578234634240/wJqD_2O2aKCeesf8Zb6eqozSzNRjUoWVaE0L5Kaze_0kCUn8bm4Y0kec7GfWhQIOw8HC'
+    
   - IncludeReplyToUser: true
     IncludeRetweet: true
     IncludeUserReply: true
     IncludeAttachment: true
     IncludeQuote: true
     CreateEmbed: true
+    keyword_sets: 
+    - - 'giveaway'
     twitter_ids: 
-    - '1189833545478311936' #xdaiotools
-    - '1277001161321537536' #whatisfnf
-    - '1313855922792398848' #cookvault
-    - '1264491925526253568' #mixeraio
-    - '1079785380478504960' #grailgateway
-    - '1105496046321442817' #The_Shit_Bot
-    - '1327461517478936577' #SGNIKECOP1
-    - '1331282912994476033' #gotemgroup
-    - '1298127398479699975' #KitchenFNF
-    - '1298127398479699975' #coppin_fnf
-    - '1146930893883346944' #diaoAIO
+    - '2468032011' #@dragonaio 
+    - '1283444968426745857' #@phoenixai0 
+    - '1105496046321442817' #@the_shit_bot 
+    - '1264491925526253568' #@mixeraio 
+    - '1258037709660184577' #@theganeshbot 
+    - '929817052709134336'#@whatbotisthis  
+    - '948158419957100544' #@kickmoji_io  
+    - '1316427972157505536' #@botsgrigora 
+    - '1044054193365934081' #@kodaiaio  
+    - '1133623549791354880' #@mekrobotics  
+    - '718857559403270144' #@cybersole  
+    - '997644265156116480' #@balkobot 
+    - '1053046389704409089' #@prismaio 
+    - '1006618676689240064' #@notify  
+    - '1020862344912654336' #@valoraio  
+    - '1117790424960249859' #@burstaio 
+    - '940121522269691904' #@ghostaio  
+    - '730120059067219968' #@essenceaio 
+    - '1214099714481639424' #@kylinbot  
+    - '1190094485687947264' #@osirisrafflebot  
+    - '1117790424960249859' #@burstaio 
+    - '2858001267' #@easycopbots 
+    - '1167027072214196224' #@nsbsneakerbot  
+    - '4887899164' #@anb_aio  
+    - '1001153235179180032' #@soleaio 
+    - '1293689856963616773' #@kageaio 
+    - '1020862344912654336' #@valoraio 
+    - '1246594844677603330' #@thebotbible  
+    - '1117790424960249859' #@burstaio  
+    - '1053823183055413248' #@copbox 
+    - '1103347873251553285' #@mangopreme 
+    - '1277001161321537536' @whatisfnf 
+    - '1313855922792398848' @cookvault 
+    - '1257849985179291649' @mamiskitchenio 
+    - '1189833545478311936' @xdaiotools 
+    - '1146930893883346944' @diaoaio 
+    - '1327461517478936577' @sgnikecop1 
+    - '1344958327684382722' @tscg_my 
+    - '1206344258569023494' @ramenfnf 
+    - '1347591292893581312' @winwinfnf 
+    - '1288795364250669068' @washedfnf_my 
+    - '1334477731136847874' @midnightfnf 
+    - '1184594634535780352' @cooksupply 
+    - '1164125706722222080' @grailgatewayna 
+    - '1340337980628725760' @lightningatc__ 
+    - '1271975122111311874' @coppin_fnf 
+    - '1136146754791968768' @cookbeastio 
+    - '111184092' @cookbit 
+    - '1252953162417205250' @sgchefs 
+    - '1275668791331115009' @bearfnf 
+    - '1331282912994476033' @gotemgroup 
     webhook_urls: 
-    - 'https://discord.com/api/webhooks/799901645357187092/iw66XD8RqLMxCoEkqQBcXvpBLSU4VYGPEkhnPkLXZiYlp2FxeRCek_UVPTNLwGG85iiy'
+    - 'https://discord.com/api/webhooks/796683753295446026/HXDiT-m8vBu6A0PBtW0OlTqkIw24J1bjNqoAlUoCMhbIuzGULZVh1cov35a538LoQfY5'
+    
+  - IncludeReplyToUser: true
+    IncludeRetweet: true
+    IncludeUserReply: true
+    IncludeAttachment: true
+    IncludeQuote: true
+    CreateEmbed: true
+    keyword_sets: 
+    - - 'invite'
+    twitter_ids: 
+    - '2468032011' #@dragonaio 
+    - '1283444968426745857' #@phoenixai0 
+    - '1105496046321442817' #@the_shit_bot 
+    - '1264491925526253568' #@mixeraio 
+    - '1258037709660184577' #@theganeshbot 
+    - '929817052709134336'#@whatbotisthis  
+    - '948158419957100544' #@kickmoji_io  
+    - '1316427972157505536' #@botsgrigora 
+    - '1044054193365934081' #@kodaiaio  
+    - '1133623549791354880' #@mekrobotics  
+    - '718857559403270144' #@cybersole  
+    - '997644265156116480' #@balkobot 
+    - '1053046389704409089' #@prismaio 
+    - '1006618676689240064' #@notify  
+    - '1020862344912654336' #@valoraio  
+    - '1117790424960249859' #@burstaio 
+    - '940121522269691904' #@ghostaio  
+    - '730120059067219968' #@essenceaio 
+    - '1214099714481639424' #@kylinbot  
+    - '1190094485687947264' #@osirisrafflebot  
+    - '1117790424960249859' #@burstaio 
+    - '2858001267' #@easycopbots 
+    - '1167027072214196224' #@nsbsneakerbot  
+    - '4887899164' #@anb_aio  
+    - '1001153235179180032' #@soleaio 
+    - '1293689856963616773' #@kageaio 
+    - '1020862344912654336' #@valoraio 
+    - '1246594844677603330' #@thebotbible  
+    - '1117790424960249859' #@burstaio  
+    - '1053823183055413248' #@copbox 
+    - '1103347873251553285' #@mangopreme 
+    - '1277001161321537536' @whatisfnf 
+    - '1313855922792398848' @cookvault 
+    - '1257849985179291649' @mamiskitchenio 
+    - '1189833545478311936' @xdaiotools 
+    - '1146930893883346944' @diaoaio 
+    - '1327461517478936577' @sgnikecop1 
+    - '1344958327684382722' @tscg_my 
+    - '1206344258569023494' @ramenfnf 
+    - '1347591292893581312' @winwinfnf 
+    - '1288795364250669068' @washedfnf_my 
+    - '1334477731136847874' @midnightfnf 
+    - '1184594634535780352' @cooksupply 
+    - '1164125706722222080' @grailgatewayna 
+    - '1340337980628725760' @lightningatc__ 
+    - '1271975122111311874' @coppin_fnf 
+    - '1136146754791968768' @cookbeastio 
+    - '111184092' @cookbit 
+    - '1252953162417205250' @sgchefs 
+    - '1275668791331115009' @bearfnf 
+    - '1331282912994476033' @gotemgroup 
+    webhook_urls: 
+    - 'https://discord.com/api/webhooks/799903864551112754/6oIiwjYsu1iCEz6xgdTq9nPr20VqrOtKfraiNLRgoyADyHwvX3jZcRYELRMZwwvJzLBM'
+    
+  - IncludeReplyToUser: true
+    IncludeRetweet: true
+    IncludeUserReply: true
+    IncludeAttachment: true
+    IncludeQuote: true
+    CreateEmbed: true
+    keyword_sets: 
+    - - 'license'
+    - - 'key'
+    twitter_ids: 
+    - '2468032011' #@dragonaio 
+    - '1283444968426745857' #@phoenixai0 
+    - '1105496046321442817' #@the_shit_bot 
+    - '1264491925526253568' #@mixeraio 
+    - '1258037709660184577' #@theganeshbot 
+    - '929817052709134336'#@whatbotisthis  
+    - '948158419957100544' #@kickmoji_io  
+    - '1316427972157505536' #@botsgrigora 
+    - '1044054193365934081' #@kodaiaio  
+    - '1133623549791354880' #@mekrobotics  
+    - '718857559403270144' #@cybersole  
+    - '997644265156116480' #@balkobot 
+    - '1053046389704409089' #@prismaio 
+    - '1006618676689240064' #@notify  
+    - '1020862344912654336' #@valoraio  
+    - '1117790424960249859' #@burstaio 
+    - '940121522269691904' #@ghostaio  
+    - '730120059067219968' #@essenceaio 
+    - '1214099714481639424' #@kylinbot  
+    - '1190094485687947264' #@osirisrafflebot  
+    - '1117790424960249859' #@burstaio 
+    - '2858001267' #@easycopbots 
+    - '1167027072214196224' #@nsbsneakerbot  
+    - '4887899164' #@anb_aio  
+    - '1001153235179180032' #@soleaio 
+    - '1293689856963616773' #@kageaio 
+    - '1020862344912654336' #@valoraio 
+    - '1246594844677603330' #@thebotbible  
+    - '1117790424960249859' #@burstaio  
+    - '1053823183055413248' #@copbox 
+    - '1103347873251553285' #@mangopreme 
+    - '1277001161321537536' @whatisfnf 
+    - '1313855922792398848' @cookvault 
+    - '1257849985179291649' @mamiskitchenio 
+    - '1189833545478311936' @xdaiotools 
+    - '1146930893883346944' @diaoaio 
+    - '1327461517478936577' @sgnikecop1 
+    - '1344958327684382722' @tscg_my 
+    - '1206344258569023494' @ramenfnf 
+    - '1347591292893581312' @winwinfnf 
+    - '1288795364250669068' @washedfnf_my 
+    - '1334477731136847874' @midnightfnf 
+    - '1184594634535780352' @cooksupply 
+    - '1164125706722222080' @grailgatewayna 
+    - '1340337980628725760' @lightningatc__ 
+    - '1271975122111311874' @coppin_fnf 
+    - '1136146754791968768' @cookbeastio 
+    - '111184092' @cookbit 
+    - '1252953162417205250' @sgchefs 
+    - '1275668791331115009' @bearfnf 
+    - '1331282912994476033' @gotemgroup 
+    webhook_urls: 
+    - 'https://discord.com/api/webhooks/796688100327686156/NRqZ1Dn7ddY0Kqte1Rmd5AeJeUb0ZTa6Ch-1lFXMQSK9JvsBfvjZpUoKnww56fbqctkU'
+    
+  - IncludeReplyToUser: true
+    IncludeRetweet: true
+    IncludeUserReply: true
+    IncludeAttachment: true
+    IncludeQuote: true
+    CreateEmbed: true
+    keyword_sets: 
+    - - 'restock'
+    twitter_ids: 
+    - '2468032011' #@dragonaio 
+    - '1283444968426745857' #@phoenixai0 
+    - '1105496046321442817' #@the_shit_bot 
+    - '1264491925526253568' #@mixeraio 
+    - '1258037709660184577' #@theganeshbot 
+    - '929817052709134336'#@whatbotisthis  
+    - '948158419957100544' #@kickmoji_io  
+    - '1316427972157505536' #@botsgrigora 
+    - '1044054193365934081' #@kodaiaio  
+    - '1133623549791354880' #@mekrobotics  
+    - '718857559403270144' #@cybersole  
+    - '997644265156116480' #@balkobot 
+    - '1053046389704409089' #@prismaio 
+    - '1006618676689240064' #@notify  
+    - '1020862344912654336' #@valoraio  
+    - '1117790424960249859' #@burstaio 
+    - '940121522269691904' #@ghostaio  
+    - '730120059067219968' #@essenceaio 
+    - '1214099714481639424' #@kylinbot  
+    - '1190094485687947264' #@osirisrafflebot  
+    - '1117790424960249859' #@burstaio 
+    - '2858001267' #@easycopbots 
+    - '1167027072214196224' #@nsbsneakerbot  
+    - '4887899164' #@anb_aio  
+    - '1001153235179180032' #@soleaio 
+    - '1293689856963616773' #@kageaio 
+    - '1020862344912654336' #@valoraio 
+    - '1246594844677603330' #@thebotbible  
+    - '1117790424960249859' #@burstaio  
+    - '1053823183055413248' #@copbox 
+    - '1103347873251553285' #@mangopreme 
+    - '1277001161321537536' @whatisfnf 
+    - '1313855922792398848' @cookvault 
+    - '1257849985179291649' @mamiskitchenio 
+    - '1189833545478311936' @xdaiotools 
+    - '1146930893883346944' @diaoaio 
+    - '1327461517478936577' @sgnikecop1 
+    - '1344958327684382722' @tscg_my 
+    - '1206344258569023494' @ramenfnf 
+    - '1347591292893581312' @winwinfnf 
+    - '1288795364250669068' @washedfnf_my 
+    - '1334477731136847874' @midnightfnf 
+    - '1184594634535780352' @cooksupply 
+    - '1164125706722222080' @grailgatewayna 
+    - '1340337980628725760' @lightningatc__ 
+    - '1271975122111311874' @coppin_fnf 
+    - '1136146754791968768' @cookbeastio 
+    - '111184092' @cookbit 
+    - '1252953162417205250' @sgchefs 
+    - '1275668791331115009' @bearfnf 
+    - '1331282912994476033' @gotemgroup 
+    webhook_urls: 
+    - 'https://discord.com/api/webhooks/796688172746276864/s8CA4udyteJMVg_qPGaP5nEtAyABNFJmz0L4mdpU2tFuzoL-M0ojfdV7m0lR_nKID022'
+    
+  - IncludeReplyToUser: true
+    IncludeRetweet: true
+    IncludeUserReply: true
+    IncludeAttachment: true
+    IncludeQuote: true
+    CreateEmbed: true
+    keyword_sets: 
+    - - 'success'
+    twitter_ids: 
+    - '2468032011' #@dragonaio 
+    - '1283444968426745857' #@phoenixai0 
+    - '1105496046321442817' #@the_shit_bot 
+    - '1264491925526253568' #@mixeraio 
+    - '1258037709660184577' #@theganeshbot 
+    - '929817052709134336'#@whatbotisthis  
+    - '948158419957100544' #@kickmoji_io  
+    - '1316427972157505536' #@botsgrigora 
+    - '1044054193365934081' #@kodaiaio  
+    - '1133623549791354880' #@mekrobotics  
+    - '718857559403270144' #@cybersole  
+    - '997644265156116480' #@balkobot 
+    - '1053046389704409089' #@prismaio 
+    - '1006618676689240064' #@notify  
+    - '1020862344912654336' #@valoraio  
+    - '1117790424960249859' #@burstaio 
+    - '940121522269691904' #@ghostaio  
+    - '730120059067219968' #@essenceaio 
+    - '1214099714481639424' #@kylinbot  
+    - '1190094485687947264' #@osirisrafflebot  
+    - '1117790424960249859' #@burstaio 
+    - '2858001267' #@easycopbots 
+    - '1167027072214196224' #@nsbsneakerbot  
+    - '4887899164' #@anb_aio  
+    - '1001153235179180032' #@soleaio 
+    - '1293689856963616773' #@kageaio 
+    - '1020862344912654336' #@valoraio 
+    - '1246594844677603330' #@thebotbible  
+    - '1117790424960249859' #@burstaio  
+    - '1053823183055413248' #@copbox 
+    - '1103347873251553285' #@mangopreme 
+    - '1277001161321537536' @whatisfnf 
+    - '1313855922792398848' @cookvault 
+    - '1257849985179291649' @mamiskitchenio 
+    - '1189833545478311936' @xdaiotools 
+    - '1146930893883346944' @diaoaio 
+    - '1327461517478936577' @sgnikecop1 
+    - '1344958327684382722' @tscg_my 
+    - '1206344258569023494' @ramenfnf 
+    - '1347591292893581312' @winwinfnf 
+    - '1288795364250669068' @washedfnf_my 
+    - '1334477731136847874' @midnightfnf 
+    - '1184594634535780352' @cooksupply 
+    - '1164125706722222080' @grailgatewayna 
+    - '1340337980628725760' @lightningatc__ 
+    - '1271975122111311874' @coppin_fnf 
+    - '1136146754791968768' @cookbeastio 
+    - '111184092' @cookbit 
+    - '1252953162417205250' @sgchefs 
+    - '1275668791331115009' @bearfnf 
+    - '1331282912994476033' @gotemgroup 
+    webhook_urls: 
+    - 'https://discord.com/api/webhooks/796688357836193802/aCMoe4l0JhtvAeKF2m-Z-ePRIBAj4BV1TuAAnxBGSJUFxehYM5XkjnoqBaBO4TYq0ldy'
+    
+  - IncludeReplyToUser: true
+    IncludeRetweet: true
+    IncludeUserReply: true
+    IncludeAttachment: true
+    IncludeQuote: true
+    CreateEmbed: true
+    keyword_sets: 
+    - - 'https://t.co'
+    twitter_ids: 
+    - '2468032011' #@dragonaio 
+    - '1283444968426745857' #@phoenixai0 
+    - '1105496046321442817' #@the_shit_bot 
+    - '1264491925526253568' #@mixeraio 
+    - '1258037709660184577' #@theganeshbot 
+    - '929817052709134336'#@whatbotisthis  
+    - '948158419957100544' #@kickmoji_io  
+    - '1316427972157505536' #@botsgrigora 
+    - '1044054193365934081' #@kodaiaio  
+    - '1133623549791354880' #@mekrobotics  
+    - '718857559403270144' #@cybersole  
+    - '997644265156116480' #@balkobot 
+    - '1053046389704409089' #@prismaio 
+    - '1006618676689240064' #@notify  
+    - '1020862344912654336' #@valoraio  
+    - '1117790424960249859' #@burstaio 
+    - '940121522269691904' #@ghostaio  
+    - '730120059067219968' #@essenceaio 
+    - '1214099714481639424' #@kylinbot  
+    - '1190094485687947264' #@osirisrafflebot  
+    - '1117790424960249859' #@burstaio 
+    - '2858001267' #@easycopbots 
+    - '1167027072214196224' #@nsbsneakerbot  
+    - '4887899164' #@anb_aio  
+    - '1001153235179180032' #@soleaio 
+    - '1293689856963616773' #@kageaio 
+    - '1020862344912654336' #@valoraio 
+    - '1246594844677603330' #@thebotbible  
+    - '1117790424960249859' #@burstaio  
+    - '1053823183055413248' #@copbox 
+    - '1103347873251553285' #@mangopreme 
+    - '1277001161321537536' @whatisfnf 
+    - '1313855922792398848' @cookvault 
+    - '1257849985179291649' @mamiskitchenio 
+    - '1189833545478311936' @xdaiotools 
+    - '1146930893883346944' @diaoaio 
+    - '1327461517478936577' @sgnikecop1 
+    - '1344958327684382722' @tscg_my 
+    - '1206344258569023494' @ramenfnf 
+    - '1347591292893581312' @winwinfnf 
+    - '1288795364250669068' @washedfnf_my 
+    - '1334477731136847874' @midnightfnf 
+    - '1184594634535780352' @cooksupply 
+    - '1164125706722222080' @grailgatewayna 
+    - '1340337980628725760' @lightningatc__ 
+    - '1271975122111311874' @coppin_fnf 
+    - '1136146754791968768' @cookbeastio 
+    - '111184092' @cookbit 
+    - '1252953162417205250' @sgchefs 
+    - '1275668791331115009' @bearfnf 
+    - '1331282912994476033' @gotemgroup 
+    webhook_urls: 
+    - 'https://discord.com/api/webhooks/796688506109820948/s3eB_Sf0lMyfb-qtLqXTI1ic6yxIqfxSdR_1dldeFXjs5J80FbL3hnfwQxoUyQ7L_HHc'
+    
   - IncludeReplyToUser: true
     IncludeRetweet: true
     IncludeUserReply: true
@@ -74,8 +457,65 @@ Discord:
     CreateEmbed: true
     keyword_sets: 
     - - 'entry'
+    - - 'entries'
+    - - 'giveaway'
+    - - 'invite'
+    - - 'license'
+    - - 'key'
     - - 'restock'
+    - - 'success'
+    - - 'https://t.co'
     twitter_ids: 
-    - '1348974086320373763'
+    - '2468032011' #@dragonaio 
+    - '1283444968426745857' #@phoenixai0 
+    - '1105496046321442817' #@the_shit_bot 
+    - '1264491925526253568' #@mixeraio 
+    - '1258037709660184577' #@theganeshbot 
+    - '929817052709134336'#@whatbotisthis  
+    - '948158419957100544' #@kickmoji_io  
+    - '1316427972157505536' #@botsgrigora 
+    - '1044054193365934081' #@kodaiaio  
+    - '1133623549791354880' #@mekrobotics  
+    - '718857559403270144' #@cybersole  
+    - '997644265156116480' #@balkobot 
+    - '1053046389704409089' #@prismaio 
+    - '1006618676689240064' #@notify  
+    - '1020862344912654336' #@valoraio  
+    - '1117790424960249859' #@burstaio 
+    - '940121522269691904' #@ghostaio  
+    - '730120059067219968' #@essenceaio 
+    - '1214099714481639424' #@kylinbot  
+    - '1190094485687947264' #@osirisrafflebot  
+    - '1117790424960249859' #@burstaio 
+    - '2858001267' #@easycopbots 
+    - '1167027072214196224' #@nsbsneakerbot  
+    - '4887899164' #@anb_aio  
+    - '1001153235179180032' #@soleaio 
+    - '1293689856963616773' #@kageaio 
+    - '1020862344912654336' #@valoraio 
+    - '1246594844677603330' #@thebotbible  
+    - '1117790424960249859' #@burstaio  
+    - '1053823183055413248' #@copbox 
+    - '1103347873251553285' #@mangopreme 
+    - '1277001161321537536' @whatisfnf 
+    - '1313855922792398848' @cookvault 
+    - '1257849985179291649' @mamiskitchenio 
+    - '1189833545478311936' @xdaiotools 
+    - '1146930893883346944' @diaoaio 
+    - '1327461517478936577' @sgnikecop1 
+    - '1344958327684382722' @tscg_my 
+    - '1206344258569023494' @ramenfnf 
+    - '1347591292893581312' @winwinfnf 
+    - '1288795364250669068' @washedfnf_my 
+    - '1334477731136847874' @midnightfnf 
+    - '1184594634535780352' @cooksupply 
+    - '1164125706722222080' @grailgatewayna 
+    - '1340337980628725760' @lightningatc__ 
+    - '1271975122111311874' @coppin_fnf 
+    - '1136146754791968768' @cookbeastio 
+    - '111184092' @cookbit 
+    - '1252953162417205250' @sgchefs 
+    - '1275668791331115009' @bearfnf 
+    - '1331282912994476033' @gotemgroup 
     webhook_urls: 
-    - 'https://discord.com/api/webhooks/796657428057423872/Tefo7ms2BQNBODIXiJVzqAbp4eGUyAHux8YADkcUZAM71G5xPOnostBJ7PWaavt8XlJS'
+    - 'https://discord.com/api/webhooks/799856516009689129/Q6qOxKU1liTWxBHgfswwGLs5EhOaNDt6Ru6PXJ8X2R0bNi_TQtdlHYm7MMFEgyPaQE5H'
