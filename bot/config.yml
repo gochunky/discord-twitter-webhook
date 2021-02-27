@@ -6,6 +6,61 @@ Twitter:
   consumer_secret: i3T7xCLk8wB44HHvSSPREAe8dkyV3FOmULTHC9ThBGVzwDQFiG
 
 Discord:
+  #upcoming-releases
+  - IncludeReplyToUser: false
+    IncludeRetweet: false
+    IncludeUserReply: true
+    IncludeAttachment: true
+    IncludeQuote: true
+    CreateEmbed: true
+    twitter_ids:
+    - '9570452'
+    - '842116394737098754'
+    - '2698270332'
+    - '16653253'
+    - '719831219123417089'
+    webhook_urls:
+    - 'https://discord.com/api/webhooks/815217381835407381/dvZ9nfMXDRnCe_SPBxJGw7tqnGsceMkMgUTLmO1qmLQqbYtCxPiijGU88DxtXuDPQL8F'
+    
+  #supreme
+  - IncludeReplyToUser: false
+    IncludeRetweet: false
+    IncludeUserReply: true
+    IncludeAttachment: true
+    IncludeQuote: true
+    CreateEmbed: true
+    twitter_ids:
+    - '806104205001891841'
+    - '702349428904972288'
+    - '2262148759'
+    webhook_urls:
+    - 'https://discord.com/api/webhooks/813412764861202502/HrLj-FFxUJBMEQheCrnlwRIJByM3w3NrLa_3NbW8-b4GC1aJpcrOUvAo_hbIXVpdMXmL'
+    
+  #yeezy
+  - IncludeReplyToUser: false
+    IncludeRetweet: false
+    IncludeUserReply: true
+    IncludeAttachment: true
+    IncludeQuote: true
+    CreateEmbed: true
+    twitter_ids:
+    - '4879752741'
+    webhook_urls:
+    - 'https://discord.com/api/webhooks/815218547512049674/tLCDN1j-_nqnHv3AOfDSRopxBwNmb0FhLYJF7RFgM2DPdpbPiPpSajMtV4m7dLt5SDoP'
+    
+  #kith
+  - IncludeReplyToUser: false
+    IncludeRetweet: false
+    IncludeUserReply: true
+    IncludeAttachment: true
+    IncludeQuote: true
+    CreateEmbed: true
+    twitter_ids:
+    - '377082410'
+    webhook_urls:
+    - 'https://discord.com/api/webhooks/815218652416049153/kzvuTfBfWN1ifyRlhJXAkUJo8fcL4L-0bN_Psj89i3r2nXakVYSCK_nEvHpzLWZEkOqp'
+    
+  #others
   - IncludeReplyToUser: false
     IncludeRetweet: true
     IncludeUserReply: true
@@ -121,18 +176,6 @@ Discord:
 
     webhook_urls: 
     - 'https://discord.com/api/webhooks/796683578234634240/wJqD_2O2aKCeesf8Zb6eqozSzNRjUoWVaE0L5Kaze_0kCUn8bm4Y0kec7GfWhQIOw8HC'
-    
-  - IncludeReplyToUser: false
-    IncludeRetweet: true
-    IncludeUserReply: true
-    IncludeAttachment: true
-    IncludeQuote: true
-    CreateEmbed: true
-    twitter_ids:
-    - '806104205001891841'
-    - '702349428904972288'
-    webhook_urls:
-    - 'https://discord.com/api/webhooks/813412764861202502/HrLj-FFxUJBMEQheCrnlwRIJByM3w3NrLa_3NbW8-b4GC1aJpcrOUvAo_hbIXVpdMXmL'
     
   - IncludeReplyToUser: false
     IncludeRetweet: true
