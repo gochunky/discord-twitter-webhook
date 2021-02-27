@@ -9,7 +9,7 @@ Discord:
   #upcoming-releases
   - IncludeReplyToUser: false
     IncludeRetweet: false
-    IncludeUserReply: true
+    IncludeUserReply: false
     IncludeAttachment: true
     IncludeQuote: true
     CreateEmbed: true
@@ -24,7 +24,7 @@ Discord:
   #supreme
   - IncludeReplyToUser: false
     IncludeRetweet: false
-    IncludeUserReply: true
+    IncludeUserReply: false
     IncludeAttachment: true
     IncludeQuote: true
     CreateEmbed: true
@@ -38,7 +38,7 @@ Discord:
   #yeezy
   - IncludeReplyToUser: false
     IncludeRetweet: false
-    IncludeUserReply: true
+    IncludeUserReply: false
     IncludeAttachment: true
     IncludeQuote: true
     CreateEmbed: true
@@ -50,7 +50,7 @@ Discord:
   #kith
   - IncludeReplyToUser: false
     IncludeRetweet: false
-    IncludeUserReply: true
+    IncludeUserReply: false
     IncludeAttachment: true
     IncludeQuote: true
     CreateEmbed: true
