@@ -26,11 +26,20 @@ Discord:
     IncludeAttachment: true
     IncludeQuote: true
     CreateEmbed: true
+    keyword_sets: 
+    - - 'https://t.co'
     twitter_ids:
     - '9570452'
     - '842116394737098754'
     - '16653253'
     - '719831219123417089'
+    - '2698270332'
+    - '1703138106'
+    - '16180874'
+    - '4879752741'
+    - '377082410'
+    - '2262148759'
+    - '702349428904972288'
     webhook_urls:
     - 'https://discord.com/api/webhooks/815217381835407381/dvZ9nfMXDRnCe_SPBxJGw7tqnGsceMkMgUTLmO1qmLQqbYtCxPiijGU88DxtXuDPQL8F'
     
