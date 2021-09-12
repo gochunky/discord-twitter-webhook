@@ -228,6 +228,7 @@ Discord:
     webhook_urls: 
     - 'https://discord.com/api/webhooks/796683578234634240/wJqD_2O2aKCeesf8Zb6eqozSzNRjUoWVaE0L5Kaze_0kCUn8bm4Y0kec7GfWhQIOw8HC'
     
+    # twitter giveaway
   - IncludeReplyToUser: false
     IncludeRetweet: true
     IncludeUserReply: true
@@ -369,7 +370,7 @@ Discord:
     - '1006618676689240064'
     - '1348974086320373763'
     webhook_urls: 
-    - 'https://discord.com/api/webhooks/796683753295446026/HXDiT-m8vBu6A0PBtW0OlTqkIw24J1bjNqoAlUoCMhbIuzGULZVh1cov35a538LoQfY5'
+    - 'https://discord.com/api/webhooks/886653886331498496/nTyU24OeNIlJ2ClWCZ_kBoSVhb431LuIKixix-UQVTHDmB6MMVuCaVN5a5hQ8nyhI_E9'
     
   - IncludeReplyToUser: false
     IncludeRetweet: true
@@ -658,6 +659,7 @@ Discord:
     webhook_urls: 
     - 'https://discord.com/api/webhooks/796688100327686156/NRqZ1Dn7ddY0Kqte1Rmd5AeJeUb0ZTa6Ch-1lFXMQSK9JvsBfvjZpUoKnww56fbqctkU'
     
+    # twitter restocks
   - IncludeReplyToUser: false
     IncludeRetweet: true
     IncludeUserReply: true
@@ -799,7 +801,7 @@ Discord:
     - '1006618676689240064'
     - '1348974086320373763'
     webhook_urls: 
-    - 'https://discord.com/api/webhooks/796688172746276864/s8CA4udyteJMVg_qPGaP5nEtAyABNFJmz0L4mdpU2tFuzoL-M0ojfdV7m0lR_nKID022'
+    - 'https://discord.com/api/webhooks/886653706374881290/41ndJbuf6tQCKkY63ZXdzgAUHsdaJR35sRmnfUSpk21RV7FiOH51ck4OBNvTTBUBM8Sl'
     
   - IncludeReplyToUser: false
     IncludeRetweet: true
@@ -1238,6 +1240,7 @@ Discord:
     webhook_urls: 
     - 'https://discord.com/api/webhooks/799856516009689129/Q6qOxKU1liTWxBHgfswwGLs5EhOaNDt6Ru6PXJ8X2R0bNi_TQtdlHYm7MMFEgyPaQE5H'
     
+    # twitter unfiltered
   - IncludeReplyToUser: false
     IncludeRetweet: true
     IncludeUserReply: true
@@ -1377,4 +1380,4 @@ Discord:
     - '1006618676689240064'
     - '1348974086320373763'
     webhook_urls: 
-    - 'https://discord.com/api/webhooks/800037372398010428/prdG9ONRxZoX8e9C2tZUmLKDRkq59uBaE0O8Ldo_rho1lqeDDv34UNk4cRgjYdcAEZR-'
+    - 'https://discord.com/api/webhooks/886653463914754122/y1IlQ6hVFr0_OybB70tcF2-vskgaCxVk9OmYmxyRuigdHFLRlFyi1YGQGlc6Dvk7j00a'
